@@ -1,0 +1,17 @@
+.headerTop {
+    display: flex;
+}
+
+.headerTop img {
+    width: 100px;
+    height: auto;
+}
+
+.headerBottom {
+    display: flex;
+}
+
+.headerBottom img {
+    width: 400px;
+    height: auto;
+}
