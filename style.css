@@ -15,3 +15,39 @@
     width: 400px;
     height: auto;
 }
+
+.headerTop, .headerBottom, .footer {
+    background-color: #1F2937;
+}
+
+#heroText {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.headerLinks a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button, .blueContainer {
+    background-color: #3882F6;
+}
+
+.informationHeaderText {
+    font-size: 36px;
+    font-weight: 900;
+    counter-reset: #1F2937;
+}
+
+.quoteContainer {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1F2937;
+}
