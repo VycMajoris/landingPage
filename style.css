@@ -1,15 +1,19 @@
 html {
     height: 100%;
+    background-color: black;
 }
     
 body {
+    background-color: white;
     max-width: 960px;
     margin: auto;
     box-sizing: border-box;
-    padding-left: 60px;
-    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
+
 
 .headerTop {
     display: flex;
@@ -53,6 +57,14 @@ button, .blueContainer {
     background-color: #3882F6;
 }
 
+button {
+    align-self: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
 .informationHeaderText {
     font-size: 36px;
     font-weight: 900;
@@ -60,7 +72,11 @@ button, .blueContainer {
 }
 
 .quoteContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
     background-color: #E5E7EB;
+    
 }
 
 .quoteText {
@@ -74,6 +90,8 @@ button, .blueContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
+   
+    margin-bottom: 50px;
 }
 .randomInfoPart {
     display: flex;
@@ -97,4 +115,64 @@ button, .blueContainer {
 
 .imgText {
     text-align: center;
+}
+
+
+.carlSagan {
+    text-align: right;
+    padding-right: 50px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quoteText {
+    text-align: start;
+    margin-bottom: 0;
+}
+
+.blueContainer {
+    display: flex;
+    margin: 40px 60px;
+    
+    gap: 100px;
+    padding: 20px;
+    
+}
+
+.callToActionLeft {
+    display: flex;
+    flex-direction: column;
+    min-height: 120px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.callToActionLeft p {
+    color: white;
+    font-size: 19px;
+    margin: 0;
+    
+    
+    
+
+}
+
+.callToAction {
+    
+    max-height: 240px;
+    padding-top: 40px;
+    
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
 }
